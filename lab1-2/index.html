@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Employers</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dark " >
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Кадровое агентство</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="index.html">Работодателей</a>
+                <a class="nav-link" href="vacancy.html">Ваканции</a>
+            </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container" style="top:200;">
+        <h2>Работодателей</h2>
+    </div>
+
+    <div class="container" style="margin-top:200;">
+        <a href="addEmployer.html" style="position: fixed; bottom: 50px; left: 200px; " class="btn btn-success">Создать</a>
+        
+    <table class="table table-hover" style="margin-top:200;">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Имя</th>
+            <th>Промышленность</th>
+            <th>Действие</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Asusoft</td>
+            <td>Автомобильный</td>
+            <td> <a href="addEmployer.html" class="btn btn-primary">Изменить</a>    <a href="#" class="btn btn-danger"> Удалить </a></td>
+        </tr>
+        </tbody>
+        <tbody>
+        <tr>
+            <td>2</td>
+            <td>Helix</td>
+            <td>Финансовые услуги</td>
+            <td> <a href="addEmployer.html" class="btn btn-primary">Изменить</a>    <a href="#" class="btn btn-danger"> Удалить </a></td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+    
+</body>
+</html>
